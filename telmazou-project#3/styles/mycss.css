@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: black;
+}
+
+.my-top-margin{
+	margin-top: 20px;
+	border: thick #FFFFFF;
+}
+.my-hr{ /*Insert a line and set the width and color*/
+    clear: both;
+    width: 90%;
+    border: 2px solid #46B7D9;
+    border-radius: 2px;
+}
+.my-height{
+	min-height: 40px;
+}
+
+#links a:hover{ /* change color when the cursor on top of it*/
+	background-color:lightblue;
+	color:white;
+}
+
